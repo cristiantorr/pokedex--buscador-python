@@ -48,4 +48,5 @@ def main(page):
       poke_image
     )
 
+# Definimos el tamaño de la pagina
 ft.app(target=main)
