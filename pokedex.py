@@ -39,6 +39,8 @@ def main(page):
       poke_image.update()
 
   submit.on_click = btn_click
+
+  # Agregamos el logo y el boton a la pagina
   page.add(
       logo_pokedex,
       nombre,
