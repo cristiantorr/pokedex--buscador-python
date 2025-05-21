@@ -24,6 +24,7 @@ def main(page):
     height=350
   )
 
+# Definimos la funcion que se ejecutara al hacer click en el boton
   def btn_click(e):
     api_url_pokemon = f'https://pokeapi.co/api/v2/pokemon/{nombre.value}'
     result = requests.get(api_url_pokemon)
