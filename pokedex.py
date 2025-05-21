@@ -1,3 +1,5 @@
+# Importando las librerias necesarias
+
 import flet as ft
 import requests
 import base64
@@ -6,6 +8,7 @@ from PIL import Image
 from io import BytesIO
 
 # Este es un programa que consulta la API de Pokemon y muestra la imagen del Pokemon buscado
+
 def main(page):
   logo_pokedex = ft.Image(
     src=f"logo.png",
