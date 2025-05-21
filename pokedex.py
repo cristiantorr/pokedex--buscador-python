@@ -5,6 +5,7 @@ from urllib.request import urlopen
 from PIL import Image
 from io import BytesIO
 
+# Este es un programa que consulta la API de Pokemon y muestra la imagen del Pokemon buscado
 def main(page):
   logo_pokedex = ft.Image(
     src=f"logo.png",
